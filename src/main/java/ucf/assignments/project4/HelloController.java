@@ -11,73 +11,154 @@ public class HelloController {
     @FXML
     private Label welcomeText;
 
-    @FXML
+    @FXML  //adds list
     protected void addList() {
-        //adds list
 
+/*
+test
+button input should register
+test assert addlist
+
+ */
     }
 
-    @FXML
+    @FXML        //deletes list
     protected void deleteList() {
-        //deletes list
+
+        /*
+test
+button input should register
+test assert deletelist
+
+ */
     }
-    @FXML
+    @FXML      //switch windows
     protected void listView() {
-        //switch windows
+
+        /*
+test
+button input should register
+test assert listView
+
+ */
     }
 
-    @FXML
+    @FXML   //edit list
     protected void editList() {
-        //edit list
+
+/*
+test
+button input should register
+test assert editlist
+
+ */
     }
-    @FXML
+
+    @FXML //adds new item to list
     protected void addItem() {
-        //adds new item to list
+
+/*
+test
+button input should register
+test assert addItem
+
+ */
     }
-    @FXML
+    @FXML//deltes item from list
     protected void deleteItem() {
-        //deltes item from list
+
+/*
+test
+button input should register
+test assert deleteItem
+
+ */
     }
-    @FXML
+
+    @FXML//edit due date and / or description of item
     protected void editItem() {
-        //edit due date and / or description of item
+
+/*
+test
+button input should register
+test assert editItem
+
+ */
     }
 
-    @FXML
+    @FXML//toggles a task as complteted or not
     protected void doneToggle() {
-        //toggles a task as complteted or not
+
+/*
+test
+button input should register
+test assert doneToggle
+
+ */
     }
 
-    @FXML
+    @FXML//show only completed items of list
     protected void filterCompleted() {
-        //show only completed items of list
+
+
+/*
+test
+button input should register
+test assert filter completed
+assert equals shown value completed
+
+ */
     }
-    @FXML
+
+    @FXML//show only incomplete items of list
     protected void filterIncomplete() {
-        //show only incomplete items of list
+/*
+test
+button input should register
+test assert filter incomplete
+assert equals shown value incomplete
+
+ */
     }
 
-    @FXML
+    @FXML //export list to local machine
     protected void exportList() {
-        //export list to local machine
+/*
+test
+button input should register
+assert equals list successfully exported
+
+ */
     }
 
-    @FXML
+    @FXML//export all items of all lists
     protected void exportAllList() {
-        //export all items of all lists
+/*
+test
+button input should register
+assert equals list successfully exported
+
+ */
     }
 
-    @FXML
+    @FXML  //import a single list
     protected void importSingle() {
-        //import a single list
+/*
+test
+button input should register
+assert equals list successfully imported
+
+ */
     }
 
-    @FXML
+    @FXML //import multiple lists
     protected void importMultiple() {
-        //import multiple lists
+/*
+test
+button input should register
+assert equals list successfully imported
+
+ */
     }
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
+
 }
