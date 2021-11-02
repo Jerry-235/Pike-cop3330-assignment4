@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.assignments.project4.HelloController">
+   <children>
+      <ListView prefHeight="400.0" prefWidth="200.0">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="test" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </ListView>
+      <VBox layoutX="200.0" layoutY="145.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="New" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Delete" />
+            <Button mnemonicParsing="false" text="Edit" />
+         </children>
+      </VBox>
+      <HBox layoutX="200.0" layoutY="3.0" prefHeight="37.0" prefWidth="398.0">
+         <children>
+            <Button mnemonicParsing="false" text="Show Completed" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Show Incomplete" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Show All" />
+            <Region prefHeight="0.0" prefWidth="50.0" />
+            <Button layoutX="225.0" layoutY="10.0" mnemonicParsing="false" text="Main View" />
+         </children>
+      </HBox>
+      <TreeView layoutX="257.0" layoutY="39.0" prefHeight="361.0" prefWidth="343.0" />
+   </children>
+</AnchorPane>

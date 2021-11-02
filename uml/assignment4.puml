@@ -1,0 +1,9 @@
+@startuml
+
+Application -> Controller: Startup
+Controller --> FXML: functions (add list, delete list etc.)
+Controller -> Application: outputs, list ,csv
+FXML -> Controller: buttons, i/o
+Application -> FXML: Passes exception
+
+@enduml
